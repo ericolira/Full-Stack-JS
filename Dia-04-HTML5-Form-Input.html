@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form/Input</title>
+</head>
+
+<body>
+    <h3>Cadastro de Desenvolvedores</h3>
+    <form action="">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" /> /
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday" id="birthday" /> /
+            <label for="photo">Foto:</label>
+            <input type="file" name="photo" id="photo" />
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="brasilian">Brasileira</option>
+                <option value="american">Portuguesa</option>
+            </select> /
+            Genero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male" value="male" />
+        </div>
+        <br>
+        <div>
+            Suas principais habilidades:
+            <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html" /> |
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css" /> |
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="js" id="js" /> |
+            <label for="php">PHP</label>
+            <input type="checkbox" name="php" id="php" />
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="description" cols="30" rows="10"
+                placeholder="Porque você gostaria de ser um Desenvolvedor?"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+</body>
+<br>
+<hr>
+
+<footer>
+    <center>
+        <a href="https://github.com/serafimjp">Desenvolvido por João Paulo Serafim</a>
+    </center>
+</footer>
+
+</html>
