@@ -1,0 +1,4 @@
+Protocolos: HTTP, SMTP, FTP
+Servidores Web: Apache, Nginx
+Endereço IP
+DNS
