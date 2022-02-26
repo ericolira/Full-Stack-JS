@@ -1,0 +1,33 @@
+<html> </html> -> Início e fim do documento.
+<head> </head> -> Tag de cabeçalho (não é exibido no conteúdo da página).
+<title> </title> -> Título da página.
+<meta> </meta> -> Inserir metadados ao documento.
+<!-- --> -> Tag de comentários.
+<header> </header> -> Define um cabeçalho (parte introdutória da página).
+<main> </main> -> Conteúdo principal da página.
+<footer> </footer> -> Define um rodapé.
+<section> </section> -> Define uma sessão.
+<aside> </aside> -> Sessão relacionada ao conteúdo do entorno.
+<nav> </nav> -> Conteúdo de navegação (conjunto de listas e menu).
+<div> </div> -> Define uma divisão da página.
+<h1> </h1> -> Tags de título; h1 a h6 (maior para o menor).
+<p> </p> -> Compõe um parágrafo.
+<span> </span> -> Costumam ser utilizadas para legendas (form, img...).
+<pre> </pre> -> Muito utilizado para inserir códigos.
+<b> </b> -> Conteúdo em negrito.
+<i> </i> -> Conteúdo em itálico.
+<br> </br> -> Quebra de linha.
+<hr> </hr> -> Forma uma linha horizontal.
+<a href= "link.com"> </a> -> Tag de link.
+<article> </article> -> Conteúdo independente do resto do site.
+<img src="img" alt="texto"> -> Incluir uma imagem.
+<video> </video> -> Inserção de um vídeo.
+<audio> </audio> -> Inserção de um áudio.
+<iframe> </iframe> -> Incluir recursos de uma outra página nesta página.
+<ol> </ol> -> Criar uma lista ordenada.
+<ul> </ul> -> Criar uma lista não ordenada.
+<li> </li> -> Lista os elementos.
+<form> </form> -> Criar um formulário.
+<input type=" "> -> Criar campos de preenchimento.
+<style> </style> -> Incluir código CSS.
+<script> </script> -> Incluir códigos de script.
