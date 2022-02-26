@@ -1,4 +1,4 @@
-Códigos e notas do curso de Full Stack JS.
+Códigos e notas do curso de programação Full Stack JS.
 
 # Comentários
 
