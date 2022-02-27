@@ -1,6 +1,6 @@
 Códigos e notas do curso de programação Full Stack JS.
 
-Comentários
+Comentários:
 
 Exercício feito, obrigado!
 
