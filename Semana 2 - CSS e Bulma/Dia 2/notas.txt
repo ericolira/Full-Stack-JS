@@ -1,0 +1,14 @@
+# Seletores mais avançados
+
+Leituras recomendadas:
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS​
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+# Recriando um site com CSS
+
+Cores utilizadas:​
+
+​#f1c40f -> Amarelo
+#2c3e50 -> Azul
+#e74c3c -> Vermelho
