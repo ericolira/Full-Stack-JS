@@ -1,0 +1,7 @@
+# Código para adicionar o Bulma (coloque no head dá página):
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+# Código para adicionar o Font Awesome (coloque no head dá página):
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+
+https://bulma.io/
