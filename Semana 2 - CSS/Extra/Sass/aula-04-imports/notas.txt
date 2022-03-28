@@ -1,0 +1,11 @@
+# Organizando o código com import
+
+1 - O import é algo extremamente útil, onde você pode fazer com que vários itens trabalhem em pastas separadas, para deixar o código mais limpo e apenas com aquilo que realmente importa para você naquela página.
+
+2 - Você pode criar dois arquivos .scss, e colocar variáveis em um dos arquivos, no segundo arquivo você vai importar o primeiro arquivo dentro do segundo e ter acesso a todas as variáveis que estão no primeiro.
+
+3 - Também algo que fizemos na aula e é recomendável que você faça: criar pastas para colocar esses novos arquivos. e você precisa apenas tomar cuidado com o caminho que é seguido, nesse caso basta utilizar o seguinte código para ter o import:
+
+@import "./colors/colors.scss";
+
+4 - Algo que é comum de ser feito e fizemos na aula é a criação de imports para diferentes pastas, fazendo com que fique muito mais fácil a organização de cada página no seu css.

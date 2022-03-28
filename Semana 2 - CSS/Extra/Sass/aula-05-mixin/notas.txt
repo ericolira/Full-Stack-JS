@@ -1,0 +1,24 @@
+# Aproveitamento de código com mixin
+
+1 - O mixin é algo que você consegue usar para ter um aproveitamento de linhas de código, você vai conseguir manipular certos elementos com menos linhas de código, de modo muito mais simples.
+
+2 - Você cria um bloco mixin dessa forma, e com ela você seleciona as variáveis que vão ser recebidas pelos outros elementos, e cada elemento vai selecionar essas variáveis, e isso faz com que você economize na hora de escrever as linhas de código e também de padronizar elementos.
+
+@mixin text-style ($color, $font-size, $font-family) {	color: $color;
+	font-size: $font-size;
+	font-family: $font-family;
+}
+
+3 - Para você usar é simples, basta colocar na classe, no id ou no elemento que você selecionar o código include, que faz com que ele seja utilizado e colocar também as variáveis já selecionadas.
+
+.title{
+	h1{
+		@include text-style(#ff4043, 34px, Arial)
+	}
+
+	p{
+		@include text-style(blue, 22px, sans-serif)
+	}
+}
+
+4 - Com isso, você consegue ter em apenas 1 linha 3 tipos diferentes de variações, o que vai economizar linhas de código para você e deixar algo mais dinâmico e também mais organizado, que poderia estar sendo usado em todos os títulos da página, todos os botões, etc...

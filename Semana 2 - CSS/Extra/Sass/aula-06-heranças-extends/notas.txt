@@ -1,0 +1,33 @@
+# Usar e aproveitar heranças/extends
+
+1 - As heranças elas servem para como o próprio nome diz, herdar coisas de outros elementos, e o extend serve para extender propriedades de outros elementos, acabam sendo bem parecidas mas uma é melhor que a outra em certos momentos.
+
+2 - Quando você usa a herança, você vai usar também o nesting, você vai colocar no html duas classes em 1 elemento, a primeira classe vai ser a classe geral, que vai conter todos os elementos e a segunda vai ser a específica, que pode mudar apenas a cor, por exemplo.
+
+E com o nesting você vai colocar o que quer de forma específica naquela classe. Assim funciona a herança, e você também pode usar a herança de forma mais organizada, colocando o elemento pai em um arquivo separado, coisa que iremos ver em uma das aulas do próximo módulo.
+
+.btn {	width: 150px;
+	height: 50px;
+	background: none;
+	border-radius: 20px;
+
+	&.btn-roxo{
+		background-color: purple;
+	}
+}
+
+3 - E o extends é bem parecido, só que fica um pouco menos organizado e eu prefiro utilizar a herança, mas vai ao seu critério. Você pode criar a mesma classe "pai", só que sem colocar ela na classe HTML do elemento, apenas criando o scss dela.
+
+.btn {
+	width: 150px;
+	height: 50px;
+	background: none;
+	border-radius: 20px;
+}
+
+.btn-roxo{
+	@extend .btn
+	background-color: purple;
+}
+
+4 - Com isso, você consegue ver que ambos são bem parecidos, o seu uso vai ficar para você escolher, o que você preferir é o que você tem que usar.
