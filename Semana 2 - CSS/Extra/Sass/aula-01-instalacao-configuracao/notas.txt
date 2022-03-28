@@ -1,0 +1,3 @@
+Instalação do NPM: sudo apt install npm
+Instalação do Sass: npm install -g sass
+Configuração do Sass: sass --watch sass/style.scss:css/style.css

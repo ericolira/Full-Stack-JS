@@ -1,0 +1,13 @@
+# Entendendo variáveis do Sass
+
+1 - As variáveis do sass são locais onde são armazenadas informações, que podem ser alteradas e também facilita o uso em vários elementos (se você quer que todos os botões de determinado lugar fiquem com a mesma cor, você pega uma variável dessa cor e usa.)
+
+2 - Você cria uma variável com cores, por exemplo, para colocar em certos tipos de botões ou em certos tipos de background, depende da sua aplicação de fato.
+
+$btn-color: #ff4043;
+
+3 - Da mesma forma que você pode colocar cores, pode também colocar tamanhos, como no exemplo abaixo
+
+$width-btn: 75px;
+
+E com isso todos os botões terão o mesmo width, e ficara fácil de você fazer a alteração caso seja necessário.
